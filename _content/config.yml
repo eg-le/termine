@@ -1,0 +1,7 @@
+site:
+    title: 'Termine'
+    description: 'Die nächsten öffentlichen Termine der Ortsgruppe Leipzig.'
+    author: ftr
+    pretty_urls: false
+smartypants:
+    enable: true
