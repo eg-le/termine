@@ -7,33 +7,26 @@
 }
 html {
   min-height: 100%;
-  font-size: 14pt;
 }
 body {
-  background: #858585;
-  background: -moz-radial-gradient(center 0,circle cover,#858585,#575757);
-  background: -webkit-radial-gradient(center 0,circle cover,#858585,#575757);
-  background: radial-gradient(center 0,circle cover,#858585,#575757);
+  background: #d5f1ff;
+  background: -moz-radial-gradient(center 0,circle cover,#d5f1ff,#79d1ff);
+  background: -webkit-radial-gradient(center 0,circle cover,#d5f1ff,#79d1ff);
+  background: radial-gradient(center 0,circle cover,#d5f1ff,#79d1ff);
   color: #00547F;
-  font-family: Ubuntu, sans-serif;
+  font-family: Georgia, serif;
   font-size: 110%;
   padding: 1em;
   min-height: 100%;
 }
 code {
-  background: #525252;
+  background: #6fcdff;
   padding: 0.1em 0.2em;
-  font-family: monospace;
 }
 blockquote {
   color: #26617F;
-  background: #525252;
+  background: #6fcdff;
   padding: 0.5em;
-}
-#container {
-  background-color: #ffffff;
-  padding: 0.5em;
-  overflow: hidden;
 }
 #container a {
   color: #26617F;
@@ -45,7 +38,7 @@ blockquote {
   color: #0f2530;
 }
 #container a:hover {
-  color: #6B6B6B;
+  color: #A2DFFF;
   background: #00547F;
 }
 #header h1 {
@@ -71,19 +64,6 @@ blockquote {
   background: none;
   color: #00547F;
 }
-#logo {
-  background-image: url("./img/eg-le-logo.png");
-  overflow: hidden;
-  height: 100%;
-  background-attachment: local, scroll;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-#logo span {
-  color: #00B1F0;
-  margin-left: 8em;
-  display: block;
-}
 #content #content-inner {
   margin: 1em 2em;
 }
@@ -101,7 +81,6 @@ blockquote {
   text-transform: lowercase;
   text-align: center;
   clear: both;
-  background-color: #004660;
 }
 #footer p {
   margin: 1em;
@@ -124,7 +103,7 @@ blockquote {
 }
 #menu a:link,
 #menu a:visited {
-  color: #6B6B6B;
+  color: #A2DFFF;
 }
 #menu a:hover {
   background: #004366;
